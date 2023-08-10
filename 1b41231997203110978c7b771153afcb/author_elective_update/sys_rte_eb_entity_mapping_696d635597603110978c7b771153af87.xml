@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_entity_mapping">
+    <sys_rte_eb_entity_mapping action="DELETE">
+        <condition_script><![CDATA[/* Example Script  (function() {          //step1: access the input variables         if (input && input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]></condition_script>
+        <encoded_query/>
+        <entity_mapping_group/>
+        <ignore>false</ignore>
+        <is_conditional>false</is_conditional>
+        <name>IHUB_SOURCE_TEMP_MAPPING</name>
+        <order>100</order>
+        <source_sys_rte_eb_entity display_value="Source_x_1108970_animal_0_ihub_import_6ec9635197603110978c7b771153af47">98dc2b1597603110978c7b771153aff6</source_sys_rte_eb_entity>
+        <sys_class_name>sys_rte_eb_entity_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-08 19:17:32</sys_created_on>
+        <sys_id>696d635597603110978c7b771153af87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_SOURCE_TEMP_MAPPING</sys_name>
+        <sys_package display_value="Animal Shelter Adaption Tracker" source="x_1108970_animal_0">1b41231997203110978c7b771153afcb</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Breed Data CSV Import_etl_ihub">54dce7d197603110978c7b771153af59</sys_rte_eb_definition>
+        <sys_scope display_value="Animal Shelter Adaption Tracker">1b41231997203110978c7b771153afcb</sys_scope>
+        <sys_update_name>sys_rte_eb_entity_mapping_696d635597603110978c7b771153af87</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-08 19:17:32</sys_updated_on>
+        <target_sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_1108970_animal_0_breed">6d6d635597603110978c7b771153af85</target_sys_rte_eb_entity>
+    </sys_rte_eb_entity_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Animal Shelter Adaption Tracker">1b41231997203110978c7b771153afcb</application>
+        <file_path/>
+        <instance_id>8714cd3adb7bedd4ae4c9027c5961932</instance_id>
+        <instance_name>dev179988</instance_name>
+        <name>sys_rte_eb_entity_mapping_696d635597603110978c7b771153af87</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_entity_mapping"&gt;&lt;sys_rte_eb_entity_mapping action="INSERT_OR_UPDATE"&gt;&lt;condition_script&gt;&lt;![CDATA[/* Example Script  (function() {          //step1: access the input variables         if (input &amp;&amp; input.temp.u_type == 'Disk') {         //step2: return true/false             return true;         }         return false;  })(); */  (function(input) {     // Add your code here. })(input);]]&gt;&lt;/condition_script&gt;&lt;encoded_query/&gt;&lt;entity_mapping_group/&gt;&lt;ignore&gt;false&lt;/ignore&gt;&lt;is_conditional&gt;false&lt;/is_conditional&gt;&lt;name&gt;IHUB_SOURCE_TEMP_MAPPING&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;source_sys_rte_eb_entity display_value="Source_x_1108970_animal_0_ihub_import_6ec9635197603110978c7b771153af47"&gt;98dc2b1597603110978c7b771153aff6&lt;/source_sys_rte_eb_entity&gt;&lt;sys_class_name&gt;sys_rte_eb_entity_mapping&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-08 19:17:32&lt;/sys_created_on&gt;&lt;sys_id&gt;696d635597603110978c7b771153af87&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;IHUB_SOURCE_TEMP_MAPPING&lt;/sys_name&gt;&lt;sys_package display_value="Animal Shelter Adaption Tracker" source="x_1108970_animal_0"&gt;1b41231997203110978c7b771153afcb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_rte_eb_definition display_value="Breed Data CSV Import_etl_ihub"&gt;54dce7d197603110978c7b771153af59&lt;/sys_rte_eb_definition&gt;&lt;sys_scope display_value="Animal Shelter Adaption Tracker"&gt;1b41231997203110978c7b771153afcb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_rte_eb_entity_mapping_696d635597603110978c7b771153af87&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-08 19:17:32&lt;/sys_updated_on&gt;&lt;target_sys_rte_eb_entity display_value="IHUB_TARGET_TEMP_x_1108970_animal_0_breed"&gt;6d6d635597603110978c7b771153af85&lt;/target_sys_rte_eb_entity&gt;&lt;/sys_rte_eb_entity_mapping&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>295871033</payload_hash>
+        <record_name>IHUB_SOURCE_TEMP_MAPPING</record_name>
+        <reverted_from/>
+        <source>1341631997203110978c7b771153af0c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-08 19:17:32</sys_created_on>
+        <sys_id>216d635597603110978c7b771153af8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189d6953dd00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-08 19:17:32</sys_updated_on>
+        <type>RTE Entity Mapping</type>
+        <update_guid>696d63555d6031102b4310ef2e904489</update_guid>
+        <update_guid_history>696d63555d6031102b4310ef2e904489:295871033</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-08 19:18:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_entity_mapping">sys_rte_eb_entity_mapping</sys_db_object>
+        <sys_id>57ba12e935904480870df4ad8d7d39c4</sys_id>
+        <sys_metadata>696d635597603110978c7b771153af87</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IHUB_SOURCE_TEMP_MAPPING</sys_name>
+        <sys_package display_value="Animal Shelter Adaption Tracker" source="x_1108970_animal_0">1b41231997203110978c7b771153afcb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Animal Shelter Adaption Tracker">1b41231997203110978c7b771153afcb</sys_scope>
+        <sys_scope_delete display_value="">0c294a2b1315469fad4cd8a5b5fb46f1</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_entity_mapping_696d635597603110978c7b771153af87</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_entity_mapping_696d635597603110978c7b771153af87">216d635597603110978c7b771153af8a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-08 19:18:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

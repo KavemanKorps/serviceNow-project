@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="bbc2e75997203110978c7b771153afbe" extends="sys_hub_action_type_base" label="Animal" max_length="40" name="x_1108970_animal_0_animal" type="collection">
+        <element label="Age" mandatory="true" max_length="38" name="age" type="decimal"/>
+        <element label="Breed" mandatory="true" max_length="32" name="breed" reference="x_1108970_animal_0_breed" reference_qual="javascript:'type='+current.type" type="reference" use_reference_qualifier="advanced"/>
+        <element choice="3" default="male" label="Gender" mandatory="true" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Picture" max_length="40" name="picture" type="user_image"/>
+        <index name="index">
+            <element name="breed"/>
+        </index>
+    </element>
+</database>

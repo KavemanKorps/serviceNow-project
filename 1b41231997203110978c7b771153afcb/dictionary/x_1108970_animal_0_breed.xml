@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" db_object_id="21c7af9d97203110978c7b771153afe8" extends="sys_hub_action_type_base" label="Breed" max_length="40" name="x_1108970_animal_0_breed" type="collection">
+        <element label="Name" max_length="40" name="nam0" type="string"/>
+    </element>
+</database>

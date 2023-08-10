@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">5da4a87ad4e3211095d7c105f1bf43b2</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-08-08 18:31:17</sys_created_on>
+        <sys_id>88d2e75997203110978c7b771153afcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Animal Shelter Adaption Tracker" source="x_1108970_animal_0">1b41231997203110978c7b771153afcb</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-08-08 18:31:17</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>
